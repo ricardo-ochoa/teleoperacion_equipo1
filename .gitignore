@@ -1,0 +1,6 @@
+pb_ws/build/
+pb_ws/install/
+pb_ws/log/
+**/__pycache__/
+*.pyc
+.DS_Store
