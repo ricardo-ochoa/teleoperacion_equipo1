@@ -79,4 +79,4 @@ xdg-open http://localhost:8080
 
 ## Objective
 
-Analizar e implementar diferentes estrategias de control para un robot móvil no holonómico, evaluando su estabilidad, robustez y desempeño en seguimiento de trayectorias de manera digitá y física.
+Analizar e implementar diferentes estrategias de control para un robot móvil no holonómico, evaluando su estabilidad, robustez y desempeño en seguimiento de trayectorias de manera digital y física.
