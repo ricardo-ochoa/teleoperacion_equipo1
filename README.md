@@ -3,7 +3,7 @@ Framework de control no holonómico para un robot diferencial tipo PuzzleBot, co
 
 Basado en:
 https://github.com/nezih-niegu/pb-j_control
-que al mismo tiempo está basado en: Ferguson, Donaire, Renton & Middleton (2018) — A port-Hamiltonian approach to the control of nonholonomic systems (arXiv:1801.06954v1).
+ , que al mismo tiempo está basado en: Ferguson, Donaire, Renton & Middleton (2018) — A port-Hamiltonian approach to the control of nonholonomic systems (arXiv:1801.06954v1).
 
 ## Team
 - **Valentina Gonzalez Benedossi** | A00839507
@@ -21,7 +21,6 @@ que al mismo tiempo está basado en: Ferguson, Donaire, Renton & Middleton (2018
 - Comparación de controladores
 
 ## Controllers
-
 - PID
 - SMC
 - ISMC
@@ -29,7 +28,6 @@ que al mismo tiempo está basado en: Ferguson, Donaire, Renton & Middleton (2018
 - Port-Hamiltonian
 
 ## Prerequisites
-
 ```bash
 sudo apt update
 sudo apt install -y \
@@ -43,7 +41,6 @@ pip3 install tf-transformations numpy matplotlib
 ````
 
 ## Build
-
 ```bash
 mkdir -p ~/pb_ws/src
 cp -r puzzlebot_control ~/pb_ws/src/
@@ -55,19 +52,16 @@ source install/setup.bash
 ## Quick Start
 
 ### Terminal 1
-
 ```bash
 ros2 launch puzzlebot_control gazebo.launch.py
 ```
 
 ### Terminal 2
-
 ```bash
 ros2 run puzzlebot_control teleop_keyboard
 ```
 
 ### Terminal 3
-
 ```bash
 xdg-open http://localhost:8080
 ```
